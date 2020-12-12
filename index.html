@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etiene Essenoh</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+<link rel="manifest" href="./favicon_io/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <main>
+      <header class="header" id="header">
+        <nav class="navbar" id="navbar">
+          <input type="checkbox" id="checkbtn" />
+          <label for="checkbtn" id="bars">
+            <i class="fas fa-bars"></i>
+          </label>
+          <label for="logo" class="logo">&lt; Code_Digger &#8725 &gt;</label>
+          <ul class="nav_items" id="nav_items">
+            <li class="nav-list"><a class="nav-link active" href="#home">home</a></li>
+            <li class="nav-list"><a class="nav-link" href="#about-me">About Me</a></li>
+            <li class="nav-list"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-list"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div id="_progress"></div>
+      <div class="content">
+        <!--Introduction-->
+        <div class="home" id="home">
+          <div class="intro">
+            <div class="typewriter">
+              <h4 class="type-effect" id="type-effect"></h4>
+            </div>
+            <p class="intro-message">
+              I am a self-taught Developer bent towards developing scalable web applications with my strong knowledge of JavaScript, HTML and CSS.
+            </p>
+          </div>
+          <div class="intro_img">
+            <div class="dp-holder">
+              <img class="dp" src="./img/profile-pic.jpg.png" loading="lazy" alt="Photo of Etiene Essenoh">
+            </div>
+          </div>
+        </div>
+
+        <!--Details about me-->
+        <div class="about" id="about-me">
+          <div class="heading">
+            <div class="info">
+              <p class="about-heading">About Me</p>
+              <span class="underline">
+              </span>
+              <p class="details">
+                I am a technical writer, software enthusiast, a people's person and a cook in my spare time. I grew up in Port Harcourt, Nigeria but currently based in Lagos,Nigeria. I have a National Diploma in Mechanical Engineering from the Yaba College of Technology, Yaba, Lagos, Nigeria.
+                Currently learning ReactJs.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--My Projects-->
+        <div class="about projects" id="projects">
+          <div class="heading">
+            <p class="about-heading">Projects</p>
+            <span class="underline">
+            </span>
+            <p class="details">
+              Here's a list of some of my apps in no particular order
+            </p>
+            <ul class="project-list" id="project-list"></ul>
+            <h3 class="job-title">Technologies I have used:</h3>
+            <ul class="tech-list" id="tech-list">
+              <li><i class="fab fa-react"></i> ReactJs</li>
+              <li><i class="fab fa-js-square"></i> JavaScript</li>
+              <li><i class="fab fa-bootstrap"></i> Bootstrap</li>
+              <li><i class="fab fa-html5"></i> HTML5</li>
+              <li><i class="fab fa-css3"></i> CSS3</li>
+              <li><i class="fab fa-sass"></i> SASS</li>
+              <li><i class="fab fa-git"></i> Git</li>
+              <li>Postman</li>
+              <li><i class="fab fa-python"></i> Python</li>
+              <li><i class="fab fa-php"></i> Php</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!--How to contact me-->
+      <div class="about" id="contact">
+        <div class="heading">
+          <div class="info">
+            <p class="about-heading">Contact</p>
+            <span class="underline">
+            </span>
+            <p class="contact">How would you like your coffee <i class="fas fa-mug-hot"></i> as we work together?</p>
+            <p class="contact">Looking forward to working with you as we build technologies <i class="fas fa-laptop-code"></i> together. You can get in touch me through my social media presence or my email. You can also checkout my <a class="project-links" href="https://techiegist.hashnode.dev/">blogposts</a>.</p>
+            <div class="email">
+              <i class="fas fa-envelope"></i>  etienejames5@gmail.com
+            </div>
+            <div class="social">
+              <ul class="social-icon">
+                <a href="https://web.facebook.com/etiene.essenoh"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/etienejames5"><i class="fab fa-twitter"></i></a>
+                <a href="https://github.com/St80ene"><i class="fab fa-github"></i></a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <i class="fa fa-copyright"></i>2020 Etiene Essenoh
+    </footer>
+  </body>
+  <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="index.js"></script>
+</html>
