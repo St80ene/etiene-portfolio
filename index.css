@@ -5,8 +5,7 @@
 }
 
 body {
-  color: #ddc6b6;
-  background-color: #262223;
+  color: #262223;
   margin: 0;
   padding: 0;
   font-size: 16px;
@@ -19,7 +18,7 @@ body {
 }
 
 .textColor {
-  color: white;
+  color: #262223;
 }
 
 #_progress {
@@ -96,17 +95,6 @@ img {
   list-style: none;
 }
 
-.dp {
-  width: 350px;
-  height: 350px;
-  border-radius: 50%;
-  backdrop-filter: blur(20px);
-  margin: auto;
-}
-
-.dp-holder {
-  text-align: center;
-}
 
 .home {
   width: 100%;
@@ -132,6 +120,7 @@ img {
 
 .about {
   width: 100%;
+  max-width: 700px;
   margin: 5rem auto;
   padding: 1.2rem;
   transition: all 2.5s ease 0s;
@@ -151,7 +140,7 @@ img {
   display: block;
   width: 100px;
   height: 3px;
-  background-color: #ddc6b6;
+  background-color: black;
 }
 
 .info {
@@ -173,7 +162,8 @@ img {
 .fa-envelope,
 .fa-twitter,
 .fa-github {
-  color: #ddc6b6;
+  /* color: #ddc6b6; */
+  color: black;
 }
 
 .fa-facebook-f,
@@ -185,7 +175,7 @@ img {
 }
 
 .project-links {
-  color: white;
+  color: black;
 }
 
 ::-webkit-scrollbar {
@@ -250,16 +240,6 @@ img {
 
   .header {
     height: 80px;
-  }
-
-  .dp {
-    width: 250px;
-    height: 250px;
-  }
-
-  .intro,
-  .intro_img {
-    width: 18rem;
   }
 }
 
