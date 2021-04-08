@@ -24,10 +24,10 @@ typewriter
   .typeString('Hello World!')
   .pauseFor(1000)
   .deleteAll()
-  .typeString(`I am Etiene Essenoh`)
+  .typeString(`I am Etiene Essenoh!`)
   .pauseFor(1000)
   .deleteAll()
-  .typeString('A Frontend Developer')
+  .typeString('A Software Engineer!')
   .pauseFor(1000)
   .start();
 
@@ -67,7 +67,7 @@ const projectList = [
 ];
 
 const generateProjectLists = (name, link) =>
-  `<li>${name} <a class="project-links" href="${link}">click here to view</a></li>`;
+  `<li>${name} <a class="project-links" href="${link}">View</a></li>`;
 
 const displayProject = () => {
   let projects = '';
